@@ -1,5 +1,7 @@
 # Conway's Game of Life FPGA Implementation
 
+![Glider Pattern Demo](glider.gif)
+
 ## Overview
 
 Conway's Game of Life is a deterministic cellular automaton governed by a few simple rules. This project implements the Game of Life in hardware on an FPGA, achieving significant performance improvements over software implementations.
@@ -52,6 +54,8 @@ The Advanced eXtensible Interface Stream (AXIS) protocol typically works as foll
 5. Upon completion, master returns to IDLE state until triggered to STREAM again
 
 ### Custom AXIS Implementation
+
+![Waveform](axis_life_tb_wfm.png)
 
 My implementation extends the standard AXIS protocol with additional signals:
 
